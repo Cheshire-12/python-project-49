@@ -17,7 +17,6 @@ packages = ["brain_games"]
 
 [dependency-groups]
 dev = [
-    "asciinema>=2.4.0",
     "ruff>=0.14.2",
 ]
 
