@@ -1,7 +1,7 @@
 import random
 
 
-# Brain Calculator Game
+# Brain Calculator Game.
 def generate_expression():
     # Generate a random arithmetic expression.
     operators = ['+', '-', '*']
@@ -26,14 +26,14 @@ def play_brain_calc():
     print(f"Hello, {name}!")
     print("What is the result of the expression?")
     
-    # Game loop
+    # Game loop.
     while score < round:
-        # Generate a random expression
+        # Generate a random expression.
         expression = generate_expression()
         print(f"Question: {expression}")
-        # Calculate the correct answer
+        # Calculate the correct answer.
         correct_answer = eval(expression)
-        # Check user input
+        # Check user input.
         while True:
             user_answer_str = input("Your answer: ").strip()
             if user_answer_str.lstrip('-').isdigit():
@@ -42,7 +42,7 @@ def play_brain_calc():
                 break
             else:
                 print("Please enter a valid integer.")
-        # Check if the answer is correct
+        # Check if the answer is correct.
         if user_answer == correct_answer:
             score += 1
             print("Correct!")

@@ -21,4 +21,7 @@
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
 
+Brain even game
 [![asciicast](https://asciinema.org/a/I7Qv5wFHbpgsqohyveU8xQvWK.svg)](https://asciinema.org/a/I7Qv5wFHbpgsqohyveU8xQvWK)
+
+Brain calculator game
