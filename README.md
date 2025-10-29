@@ -26,3 +26,6 @@
 
 ### Brain calculator game
 [![asciicast](https://asciinema.org/a/A7NkDB611mGA9oPoh7vu8TRM0.svg)](https://asciinema.org/a/A7NkDB611mGA9oPoh7vu8TRM0)
+
+### Brain greatest common divisor game
+[![asciicast](https://asciinema.org/a/ylHyfvqJD3U4Vq9omSqaU1TO8.svg)](https://asciinema.org/a/ylHyfvqJD3U4Vq9omSqaU1TO8)
