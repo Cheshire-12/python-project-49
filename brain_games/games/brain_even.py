@@ -1,8 +1,9 @@
 import random
 
-
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
-# Question generator for Even game.
+
+
+# Question and correct answer generator for Even game.
 def generate_question():
     number = random.randint(1, 100)
     question = str(number)

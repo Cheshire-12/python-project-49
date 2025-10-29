@@ -1,10 +1,11 @@
-import random
 import operator
-
+import random
 
 # Description for the Calc game.
 DESCRIPTION = 'What is the result of the expression?'
-# Generate question and correct answer
+
+
+# Question and correct answer generator for Calc game.
 def generate_question():
     ops = {'+': operator.add,
                  '-': operator.sub,

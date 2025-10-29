@@ -1,10 +1,11 @@
 import math
 import random
 
-
 # Brain Greatest common divisor (GCD) game.
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
-# Question generator for GCD game.
+
+
+# Question and correct answer generator for GCD game.
 def generate_question():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)

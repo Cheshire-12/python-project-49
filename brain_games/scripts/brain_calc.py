@@ -1,5 +1,5 @@
-from brain_games.games.brain_calc import DESCRIPTION, generate_question
 from brain_games.engine import game_engine
+from brain_games.games.brain_calc import DESCRIPTION, generate_question
 
 
 def main():
