@@ -1,6 +1,8 @@
 # Brain Games
 ### About the project
 This is a brain training game project. It consists of five games: "Calculator," "Parity Check," "Greatest Common Divisor (GCD)," "Arithmetic Progression," and "Is a Number Prime?" The project was created by Heklest student Andrey Vedenkin.
+### Game Rules
+You need to win three times in a row. If you answer incorrectly, the game ends.
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Cheshire-12/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Cheshire-12/python-project-49/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)

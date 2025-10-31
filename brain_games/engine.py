@@ -8,15 +8,15 @@ def game_engine(game_description, question_generator):
     score = 0
     rounds = 3
     while score < rounds:
-        question, correct_answer = question_generator()
+        question, correct = question_generator()
         print(f"Question: {question}")
-        user_answer = input("Your answer: ").strip()
-        if user_answer == str(correct_answer):
+        ans = input("Your answer: ").strip()
+        if ans == str(ans):
             score += 1
             print("Correct!")
         else:
             score = 0
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{ans}' is wrong answer. Correct answer was '{correct}'.")
             print(f"Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
