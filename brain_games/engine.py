@@ -11,7 +11,7 @@ def game_engine(game_description, question_generator):
         question, correct = question_generator()
         print(f"Question: {question}")
         ans = input("Your answer: ").strip()
-        if ans == str(ans):
+        if ans == str(correct):
             score += 1
             print("Correct!")
         else:
