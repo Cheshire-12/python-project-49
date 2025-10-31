@@ -1,8 +1,5 @@
 [project]
-authors = [{
-    name = "Andrey Vedenkin",
-    email = "andr.vnk@gmail.com"
-}]
+authors = [{name = "Andrey Vedenkin", email = "andr.vnk@gmail.com"}]
 name = "hexlet-code"
 version = "0.1.0"
 description = "Thit is Brain Games project."
