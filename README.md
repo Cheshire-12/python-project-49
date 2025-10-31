@@ -24,8 +24,11 @@
 ### Brain even game
 [![asciicast](https://asciinema.org/a/I7Qv5wFHbpgsqohyveU8xQvWK.svg)](https://asciinema.org/a/I7Qv5wFHbpgsqohyveU8xQvWK)
 
-### Brain calculator game
+### Brain Calculator game
 [![asciicast](https://asciinema.org/a/A7NkDB611mGA9oPoh7vu8TRM0.svg)](https://asciinema.org/a/A7NkDB611mGA9oPoh7vu8TRM0)
 
 ### Brain greatest common divisor game
 [![asciicast](https://asciinema.org/a/ylHyfvqJD3U4Vq9omSqaU1TO8.svg)](https://asciinema.org/a/ylHyfvqJD3U4Vq9omSqaU1TO8)
+
+### Brain Progression game
+[![asciicast](https://asciinema.org/a/sfnznruokOxtof6zhyXkegwyy.svg)](https://asciinema.org/a/sfnznruokOxtof6zhyXkegwyy)
