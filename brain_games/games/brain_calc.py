@@ -11,9 +11,9 @@ def generate_question():
                  '-': operator.sub,
                  '*': operator.mul
                  }
-    op_symbol = random.choice(list(operations.keys()))
-    num1 = random.randint(1, 25)
-    num2 = random.randint(1, 25)
+    op_symbol = random.choice(list(operations.keys())) #NOSONAR
+    num1 = random.randint(1, 25) #NOSONAR
+    num2 = random.randint(1, 25) #NOSONAR
     operator_func = operations[op_symbol]
     question = f"{num1} {op_symbol} {num2}"
     correct_answer = operator_func(num1, num2)

@@ -17,7 +17,7 @@ def is_prime_number(n):
 
 # Question and correct answer generator for Prime game.
 def generate_question():
-    num = random.randint(1, 100)
+    num = random.randint(1, 100) #NOSONAR
     question = str(num)
     correct_answer = 'yes' if is_prime_number(num) else 'no'
     return question, correct_answer
