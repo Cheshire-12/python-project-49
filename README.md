@@ -30,18 +30,34 @@ The project requires **Python 3.12 or newer** and the **`uv`** package manager/b
 To install the package as a command-line tool, you must complete the full cycle: dependency synchronization, **wheel file creation**, and final installation. These steps are automated by the `make install-games` command:
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
+# Choose one method:
+# HTTPS (Universal):
 git clone [https://github.com/Cheshire-12/python-project-49.git](https://github.com/Cheshire-12/python-project-49.git)
-cd python-project-49
 
+# SSH (Requires SSH key setup):
+git clone git@github.com:Cheshire-12/python-project-49.git
+
+# 2. Run the automated installation command
 # Executes: uv sync, uv build, uv tool install dist/*.whl
 make install-games
 ```
- ### 2. Running a Game
+**Important**: After running this command, all executable scripts (e.g., `brain-even`, `brain-calc`) become available directly in your terminal without needing the `uv run` prefix.
+### 2. Running a Game
 You can start any game by typing its corresponding command.
 ```bash
 brain-calc
 ```
+
+### 📊 Project Status
+
+| Tool | Status |
+| :--- | :--- |
+| **Hexlet Tests** | [![Actions Status](https://github.com/Cheshire-12/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Cheshire-12/python-project-49/actions) |
+| **SonarCloud Quality Gate** | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
+| **Code Smells** | [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
+| **Maintainability Rating** | [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
+| **Vulnerabilities** | [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
 
 ### Game: "Parity Check"
 [![asciicast](https://asciinema.org/a/IlTxJPW7mvdKo2OIxgMhK3woq.svg)](https://asciinema.org/a/IlTxJPW7mvdKo2OIxgMhK3woq)
@@ -57,13 +73,3 @@ brain-calc
 
 ### Game: "Is a number prime?"
 [![asciicast](https://asciinema.org/a/QT7OfDWcYaG7Htl7gYAS54t8X.svg)](https://asciinema.org/a/QT7OfDWcYaG7Htl7gYAS54t8X)
-
-## 📊 Project Status
-
-| Tool | Status |
-| :--- | :--- |
-| **Hexlet Tests** | [![Actions Status](https://github.com/Cheshire-12/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Cheshire-12/python-project-49/actions) |
-| **SonarCloud Quality Gate** | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
-| **Code Smells** | [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
-| **Maintainability Rating** | [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
-| **Vulnerabilities** | [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
