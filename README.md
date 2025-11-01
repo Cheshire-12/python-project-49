@@ -18,7 +18,7 @@ You need to win three times in a row. If you answer incorrectly, the game ends.
 
 ### Setup
 ```bash
-make install
+make install-games
 ```
 
 ### Start play 
