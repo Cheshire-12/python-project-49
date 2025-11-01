@@ -1,46 +1,46 @@
-# Brain Games
-### About the project
-This is a brain training game project. It consists of five games: "Calculator," "Parity Check," "Greatest Common Divisor (GCD)," "Arithmetic Progression," and "Is a Number Prime?" The project was created by Hexlet student Andrey Vedenkin.
-### Game Rules
-You need to win three times in a row. If you answer incorrectly, the game ends.
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Cheshire-12/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Cheshire-12/python-project-49/actions)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49)
+# Brain Games 🧠
 
-### Setup
+**Brain Games** is a collection of simple command-line mathematical games designed as an educational project. The project is structured as a highly modular Python package, featuring a universal game engine that powers all five available games.
+
+---
+
+## ✨ Games and Rules
+
+The project includes five brain-training games.
+
+**Rules:** To win, you must provide **three** correct answers in a row. An incorrect answer will immediately end the game.
+
+| Game | Description | Launch Command |
+| :--- | :--- | :--- |
+| **Welcome** | User greeting and introduction. | `brain-games` |
+| **Parity Check** | Guess whether the number is even (`yes` or `no`). | `brain-even` |
+| **Calculator** | Calculate the result of a random mathematical expression. | `brain-calc` |
+| **GCD** | Find the greatest common divisor of two numbers. | `brain-gcd` |
+| **Progression** | Identify the missing number in an arithmetic progression. | `brain-progression` |
+| **Is Prime?** | Guess whether the number is prime (`yes` or `no`). | `brain-prime` |
+
+---
+
+## 🛠️ Installation and Setup
+
+The project requires **Python 3.12 or newer** and the **`uv`** package manager/build tool for correct installation.
+
+### 1. Installation
+
+To install the package as a command-line tool, you must complete the full cycle: dependency synchronization, **wheel file creation**, and final installation. These steps are automated by the `make install-games` command:
+
 ```bash
+# Clone the repository
+git clone [https://github.com/Cheshire-12/python-project-49.git](https://github.com/Cheshire-12/python-project-49.git)
+cd python-project-49
+
+# Executes: uv sync, uv build, uv tool install dist/*.whl
 make install-games
 ```
-
-### Start play 
-Game: "Calculator"
+ ### 2. Running a Game
+You can start any game by typing its corresponding command.
 ```bash
 brain-calc
-```
-Game: "Parity Check"
-```bash
-brain-even
-```
-Game: "Greatest Common Divisor (GCD)"
-```bash
-brain-gcd
-```
-Game: "Is a number prime?"
-```bash
-brain-prime
-```
-Game: "Arithmetic Progression"
-```bash
-brain-progression
 ```
 
 ### Game: "Parity Check"
@@ -57,3 +57,13 @@ brain-progression
 
 ### Game: "Is a number prime?"
 [![asciicast](https://asciinema.org/a/QT7OfDWcYaG7Htl7gYAS54t8X.svg)](https://asciinema.org/a/QT7OfDWcYaG7Htl7gYAS54t8X)
+
+## 📊 Project Status
+
+| Tool | Status |
+| :--- | :--- |
+| **Hexlet Tests** | [![Actions Status](https://github.com/Cheshire-12/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Cheshire-12/python-project-49/actions) |
+| **SonarCloud Quality Gate** | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
+| **Code Smells** | [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
+| **Maintainability Rating** | [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
+| **Vulnerabilities** | [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Cheshire-12_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Cheshire-12_python-project-49) |
