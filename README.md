@@ -20,6 +20,7 @@ You need to win three times in a row. If you answer incorrectly, the game ends.
 ```bash
 make install
 ```
+
 ### Start play 
 Game: "Calculator"
 ```bash
@@ -41,17 +42,18 @@ Game: "Arithmetic Progression"
 ```bash
 brain-progression
 ```
+
 ### Game: "Parity Check"
-[![asciicast](https://asciinema.org/a/I7Qv5wFHbpgsqohyveU8xQvWK.svg)](https://asciinema.org/a/I7Qv5wFHbpgsqohyveU8xQvWK)
+[![asciicast](https://asciinema.org/a/IlTxJPW7mvdKo2OIxgMhK3woq.svg)](https://asciinema.org/a/IlTxJPW7mvdKo2OIxgMhK3woq)
 
 ### Game: "Calculator"
-[![asciicast](https://asciinema.org/a/A7NkDB611mGA9oPoh7vu8TRM0.svg)](https://asciinema.org/a/A7NkDB611mGA9oPoh7vu8TRM0)
+[![asciicast](https://asciinema.org/a/Fv5uA4ZJx22ZXqjgTMLObpDGq.svg)](https://asciinema.org/a/Fv5uA4ZJx22ZXqjgTMLObpDGq)
 
 ### Game: "Greatest Common Divisor (GCD)"
-[![asciicast](https://asciinema.org/a/ylHyfvqJD3U4Vq9omSqaU1TO8.svg)](https://asciinema.org/a/ylHyfvqJD3U4Vq9omSqaU1TO8)
+[![asciicast](https://asciinema.org/a/ZgzszcouUeXlFZvpmR4rsugLm.svg)](https://asciinema.org/a/ZgzszcouUeXlFZvpmR4rsugLm)
 
 ### Game: "Arithmetic Progression"
-[![asciicast](https://asciinema.org/a/sfnznruokOxtof6zhyXkegwyy.svg)](https://asciinema.org/a/sfnznruokOxtof6zhyXkegwyy)
+[![asciicast](https://asciinema.org/a/5xNE302Kgqa2D6VYizzAr0asK.svg)](https://asciinema.org/a/5xNE302Kgqa2D6VYizzAr0asK)
 
 ### Game: "Is a number prime?"
-[![asciicast](https://asciinema.org/a/iQxa9M26qrF0QvXbBQhEzIMfD.svg)](https://asciinema.org/a/iQxa9M26qrF0QvXbBQhEzIMfD)
+[![asciicast](https://asciinema.org/a/QT7OfDWcYaG7Htl7gYAS54t8X.svg)](https://asciinema.org/a/QT7OfDWcYaG7Htl7gYAS54t8X)
