@@ -33,8 +33,7 @@ To install the package as a command-line tool, you must complete the full cycle:
 # 1. Clone the repository
 # Choose one method:
 # HTTPS (Universal):
-git clone [https://github.com/Cheshire-12/python-project-49.git](https://github.com/Cheshire-12/python-project-49.git)
-
+git clone https://github.com/Cheshire-12/python-project-49.git
 # SSH (Requires SSH key setup):
 git clone git@github.com:Cheshire-12/python-project-49.git
 
