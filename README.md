@@ -1,4 +1,4 @@
-# Brain Games 🧠
+# 🧠 Brain Games
 
 **Brain Games** is a collection of simple command-line mathematical games designed as an educational project. The project is structured as a highly modular Python package, featuring a universal game engine that powers all five available games.
 
